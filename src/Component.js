@@ -1,5 +1,6 @@
-var React = require('react');
+import PropTypes from 'prop-types'
 
+var React = require('react');
 var isEmpty = require('lodash/isEmpty');
 var difference = require('lodash/difference');
 var isEqual = require('lodash/isEqual');
@@ -7,9 +8,9 @@ var isFunction = require('lodash/isFunction');
 
 module.exports = React.createClass({
   propTypes: {
-    keys: React.PropTypes.array,
-    simultaneous: React.PropTypes.bool,
-    onKeysCoincide: React.PropTypes.func
+    keys: PropTypes.array,
+    simultaneous: PropTypes.bool,
+    onKeysCoincide: PropTypes.func
   },
 
   getInitialState: function initialState() {

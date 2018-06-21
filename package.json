@@ -55,6 +55,7 @@
   },
   "dependencies": {
     "bluebird": "3.4.7",
+    "prop-types" : "15.6.2",
     "lodash": "^4.17.4",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
