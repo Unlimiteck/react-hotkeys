@@ -5,8 +5,9 @@ var isEmpty = require('lodash/isEmpty');
 var difference = require('lodash/difference');
 var isEqual = require('lodash/isEqual');
 var isFunction = require('lodash/isFunction');
+var createReactClass = require('create-react-class');
 
-module.exports = React.createClass({
+module.exports = createReactClass({
   propTypes: {
     keys: PropTypes.array,
     simultaneous: PropTypes.bool,
