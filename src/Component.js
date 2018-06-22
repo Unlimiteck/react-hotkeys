@@ -7,7 +7,7 @@ var isEqual = require('lodash/isEqual');
 var isFunction = require('lodash/isFunction');
 var createReactClass = require('create-react-class');
 
-module.exports = createReactClass({
+export default createReactClass({
   propTypes: {
     keys: PropTypes.array,
     simultaneous: PropTypes.bool,
